@@ -1,0 +1,26 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# eclipse files #
+######################
+.classpath
+.project
+.settings/
+
+# IDEA files #
+######################
+.idea
+atlassian-ide-plugin.xml
+**/*.iml
+
+# build files #
+######################
+build.properties
+tmp
+target
+work
