@@ -1,8 +1,7 @@
-Feature: EPAM career site
+Feature: EPAM career site tests
   As a user
   I want to visit the EPAM career site
-  So that I can apply for a job easily
-
+  So that I can apply for a job
 
   Scenario: CARREER_1 - Searching for jobs
     Given the EPAM career site is opened
@@ -17,9 +16,9 @@ Feature: EPAM career site
       And the Find button is clicked
     Then an open position should be displayed
     And the title of the position should be <role>
-      And the location the position should be "Debrecen, Hungary"
+      And the location the position should be Debrecen, Hungary
       And the priority the position should be HOT
-      And the description of the position should starts with: <description>
+      And the description of the position should start with: <description>
     Examples:
       | role                     | description                                                                     |
       | Test Automation Engineer | Currently we are looking for a Test Automation Engineer for our Debrecen office |
