@@ -1,4 +1,4 @@
-package com.epam.qa;
+package com.epam.qa.carrier;
 
 import java.util.List;
 

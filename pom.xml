@@ -11,9 +11,16 @@
   <dependencies>
 
     <dependency>
-      <groupId>io.cucumber</groupId>
+      <groupId>info.cukes</groupId>
       <artifactId>cucumber-junit</artifactId>
-      <version>2.3.1</version>
+      <version>1.2.5</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>info.cukes</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>1.2.5</version>
       <scope>test</scope>
     </dependency>
 
@@ -22,6 +29,11 @@
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>RELEASE</version>
     </dependency>
 
   </dependencies>
