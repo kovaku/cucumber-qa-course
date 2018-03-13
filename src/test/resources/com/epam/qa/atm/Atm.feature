@@ -1,6 +1,6 @@
 @run
 Feature: Withdraw money from ATM
-  A user with an account at a bank
+  As a user with an account at a bank
   I would like to withdraw money from an ATM
   So that I can pay everywhere.
 
