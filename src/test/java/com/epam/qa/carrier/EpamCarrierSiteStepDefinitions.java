@@ -9,8 +9,8 @@ import cucumber.api.java.en.When;
 
 public class EpamCarrierSiteStepDefinitions {
 
-    @Given("^the EPAM career site is opened$")
-    public void the_EPAM_career_site_is_opened() {
+    @Given("^the EPAM career site is loaded")
+    public void the_EPAM_career_site_is_loaded() {
     }
 
     @When("^the Find button is clicked$")
@@ -33,11 +33,11 @@ public class EpamCarrierSiteStepDefinitions {
     public void an_open_position_should_be_displayed() {
     }
 
-    @Then("^the location the position should be (.*)$")
+    @Then("^the location of the position should be (.*)$")
     public void the_location_the_position_should_be(String loc) {
     }
 
-    @Then("^the priority the position should be (.*)$")
+    @Then("^the priority of the position should be (.*)$")
     public void the_priority_the_position_should_be(String prio) {
     }
 
